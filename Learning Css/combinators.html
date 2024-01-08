@@ -1,0 +1,40 @@
+<Doctype html!>
+    <html>
+
+    <head>
+        <title> Universal selector </title>
+
+        <style>
+
+            /* #descendant combinator */
+            div p {
+                color: blue;
+            }
+            /* Child selector */
+            div > p {
+                color: chartreuse;
+            }
+            /* adjacent sibling selector /immediate  */
+            div + p {
+                color: green;
+            }
+            /* general sibling selector */
+            div ~ p {
+                color: crimson;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div>
+            <p>I am from bangladesh </p>
+             <p>My journey of Css </p>
+             <section> <p>This is paragraph</p></section>
+        </div>
+        <p>What is on the GRE?  </p>
+        <p>this is a para1</p>
+        <p>this is a para2</p>
+        <p>this is a para3</p>
+        </body>
+
+    </html>

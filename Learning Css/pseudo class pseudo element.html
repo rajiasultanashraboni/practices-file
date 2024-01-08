@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<input lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pseudo class and pseudo element</title>
+    <style>
+        p:hover{
+            color: blue;
+        }
+        /* pdeudo element */
+        p::first-letter{
+            font-size: 10px;
+            color: brown;
+        }
+
+        a.my-link:hover{
+            color: chartreuse;
+        }
+        input{
+            width: 150px;
+            padding: 20px;
+            font-size: 1.5rem;
+        }
+        input:hover{
+            background-color: blue;
+
+        }
+        
+        table,tr,td{
+            border: 1px black green;
+        }
+        tr :nth-child(odd){
+            background-color: brown;
+        }
+
+    </style>
+</head>
+<body>
+    <a class="my-link" href="a">Paragraph</a>
+    <a href="link">Paragraph</a>
+    <p>Accusam diam ipsum sed diam amet sea kasd consetetur, sadipscing gubergren tempor lorem ipsum dolor aliquyam stet ea ipsum. No et voluptua consetetur amet. Stet et sea lorem sit dolor tempor eirmod amet. Dolores labore consetetur et no lorem labore, ut dolor sadipscing aliquyam clita elitr duo est. Eirmod labore et et duo ipsum rebum voluptua clita, at justo est lorem consetetur. Diam no dolor sadipscing elitr tempor. Duo stet sed kasd rebum sed kasd et et. Consetetur at no labore gubergren, aliquyam sadipscing ea gubergren erat eos, amet duo no rebum lorem invidunt clita sadipscing, eirmod sadipscing duo magna erat dolor ipsum dolore, takimata dolor et gubergren et, no voluptua lorem sed sadipscing diam. Erat sit rebum sanctus sed eos kasd. Justo ipsum eos nonumy sed labore invidunt amet elitr magna. Rebum sed ea dolor clita stet, nonumy et justo sanctus voluptua accusam. Tempor justo elitr et tempor labore duo magna vero, sed est aliquyam dolore justo sadipscing clita amet. No diam sadipscing dolor stet stet, dolor ut sit duo ipsum. Et eos aliquyam et et sea lorem at. Amet ut et voluptua sea, ut takimata et dolor accusam. At amet duo duo aliquyam sit, dolor kasd no dolores sed dolor, justo eos sed sanctus amet duo sit rebum. Et magna diam ea sanctus, sit amet ipsum diam eos, clita sit voluptua amet voluptua amet est lorem sit. Sea eos dolor ut tempor sit kasd lorem. Kasd duo ipsum takimata dolore ea ipsum invidunt gubergren, clita elitr sanctus sadipscing tempor duo sea eos invidunt, lorem amet sed sea lorem et ipsum aliquyam diam rebum, elitr invidunt diam vero et amet ipsum ea. Consetetur ut aliquyam eirmod sit aliquyam elitr. No et amet at et. Dolor lorem accusam sed sed, aliquyam ut ut dolor accusam duo. Dolore invidunt et dolor sed at gubergren dolores rebum sit, tempor sanctus est magna amet eirmod, kasd est est et gubergren consetetur diam erat, kasd amet lorem voluptua amet accusam sanctus et, amet clita ut takimata lorem et, lorem sed sea dolore amet sed ut tempor et, dolore duo sit eos tempor gubergren, amet sea at elitr ea sed clita amet ea diam, et labore eos et et diam. No justo accusam lorem magna. Dolore at et aliquyam accusam invidunt sed sit. Clita eos vero gubergren magna lorem kasd et. Diam voluptua stet voluptua eos sed voluptua sanctus takimata. Dolores ut justo et et vero. Diam kasd magna et et eos magna dolor voluptua, labore et accusam sed lorem ipsum no. Dolore tempor voluptua stet takimata. Ipsum et magna stet et dolor, dolor dolores magna et dolor magna, ut aliquyam tempor clita sea diam takimata sadipscing vero invidunt. Accusam justo gubergren gubergren et, labore sed et dolore voluptua sed kasd sadipscing vero, gubergren sadipscing vero takimata diam clita et vero erat. Gubergren dolores elitr elitr eirmod sea, lorem duo dolores no erat no stet rebum et, est tempor sed et invidunt takimata lorem. Sea at lorem ea diam. Elitr sanctus magna clita consetetur eirmod.</p>
+    <input type="text" placeholder="Enter your Name">
+
+    <table>
+        <tr>
+            <td>Name</td>
+            <td>Age</td>
+            <td>Gender</td>
+        </tr>
+        <tr>
+            <td>Rajia Sultana</td>
+            <td>30</td>
+            <td>female</td>
+        </tr>
+        <tr>
+            <td>Rafi</td>
+            <td>30</td>
+            <td>Male</td>
+        </tr>
+    </table>
+
+
+</body>
+</html>
